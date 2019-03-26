@@ -14,7 +14,7 @@
         $res = $order->update($amount, $id, $db);
        
         if($res) {
-            header('location: view_order.php');
+            header('location: index.php');
         } else {
             echo "Failed to update order";
         }

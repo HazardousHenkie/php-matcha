@@ -17,9 +17,7 @@
 
         private function runQuery($sql, $database) {
             $res = $database->run_query($sql);
-            
-            var_dump($sql);
-
+           
             if($res) {
                 return true;
             } else {
