@@ -9,7 +9,7 @@
     $res = $order->delete($id, $db);
    
     if($res) {
-        header('location: view_order.php');
+        header('location: index.php');
     } else {
         echo "Failed to delete order";
     }
